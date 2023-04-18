@@ -6,6 +6,9 @@
 #include <QSqlDatabase>
 #include <QSqlQuery>
 #include <QDebug>
+#include <QSqlDatabase>
+#include <QSql>
+#include <QSqlError>
 
 
 QT_BEGIN_NAMESPACE
@@ -28,6 +31,9 @@ private slots:
     void on_pushButton_3_clicked();
 
 private:
+
+
     Ui::MainWindow *ui;
+    QSqlDatabase database;
 };
 #endif // MAINWINDOW_H

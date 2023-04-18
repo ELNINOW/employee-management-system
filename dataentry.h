@@ -2,6 +2,7 @@
 #define DATAENTRY_H
 
 #include <QDialog>
+#include <QWidget>
 
 namespace Ui {
 class DataEntry;
